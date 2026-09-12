@@ -1,0 +1,222 @@
+body {
+    background-color: #121212;
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: center;
+    color: white;
+
+    animation: aparecer 1s ease;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    background-color: #121212;
+    font-family: "Trebuchet MS", sans-serif;
+    text-align: center;
+    color: white;
+
+    background-image: radial-gradient(circle, #0481ff22 2px, transparent 2px);
+    background-size: 40px 40px;
+
+    animation: fondo 8s linear infinite;
+}
+
+@keyframes fondo {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 40px 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+h1 {
+    font-size: 50px;
+    color: #4da6ff;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #66b3ff;
+    margin-top: 40px;
+}
+
+.foto {
+    width: 220px;
+    height: 220px;
+
+    border-radius: 50%;
+    object-fit: cover;
+
+    display: block;
+    margin: auto;
+
+    border: 5px solid white;
+
+    box-shadow: 0 4px 10px #000;
+}
+
+.texto {
+    width: 600px;
+    max-width: 80%;
+
+    margin: auto;
+
+    line-height: 1.6;
+
+    background-color: #1e1e1e;
+
+    color: white;
+
+    padding: 20px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 3px 10px #000;
+}
+
+ul {
+    width: 300px;
+
+    margin: 20px auto;
+
+    padding: 0;
+
+    list-style: none;
+}
+
+li {
+    background-color: #1e1e1e;
+
+    color: white;
+
+    margin: 10px;
+
+    padding: 12px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 3px 8px #000;
+}
+
+li:hover {
+    background-color: #292929;
+}
+
+.mis-cualidades {
+    width: 400px;
+}
+
+footer {
+    margin-top: 50px;
+
+    padding: 20px;
+
+    background-color: #080808;
+
+    color: white;
+}
+
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
+
+.benji1 {
+    width: 200px;
+    height: 200px;
+
+    object-fit: cover;
+
+    border-radius: 20px;
+
+    border: 4px solid white;
+
+    box-shadow: 0 5px 15px #000;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.benji1:hover {
+    transform: scale(1.08);
+}
+
+.benji1 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.benji1.grande {
+    transform: scale(2.7);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px auto;
+}
+
+nav a {
+    background-color: #1e1e1e;
+    color: #66b3ff;
+    text-decoration: none;
+
+    padding: 12px 25px;
+    border-radius: 10px;
+
+    box-shadow: 0 3px 8px #000;
+
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #292929;
+    color: white;
+    transform: scale(1.08);
+}
+
+.label {
+
+   display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+button{
+
+    font-display: optional;
+    font-family: Netflix Sans;
+    font-weight: 100;
+
+
+}
