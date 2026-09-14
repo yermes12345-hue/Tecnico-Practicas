@@ -1,0 +1,32 @@
+body {
+
+ background-color: #6A7152;
+ display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
+
+
+}
+
+
+div {
+
+  background-color: #233329;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  gap: 10px;
+flex-direction: column;
+
+}
+
+h1{
+ 
+    color: aqua;
+
+
+}

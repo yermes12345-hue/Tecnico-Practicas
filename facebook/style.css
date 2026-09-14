@@ -1,0 +1,15 @@
+.logo {
+
+ background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg');
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  display: flex;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+
+}
